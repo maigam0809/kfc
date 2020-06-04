@@ -145,4 +145,8 @@
   background-color: var(--primary-color);
 }
 
+.content__top {
+  margin: var(--margin-fixed);
+}
+
 /*# sourceMappingURL=style.css.map */
