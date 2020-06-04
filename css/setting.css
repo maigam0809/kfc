@@ -7,7 +7,7 @@
     --container: 1024px;
     --font1 : 16px;
     --font2: 22px;
-    --border: 1px solid black;
+    --border: 1px solid gray;
     --magin-0-auto: 0 auto;
     --flex: flex;
     --margin-fixed: 30px;
@@ -41,7 +41,7 @@ body {
 
 .wrapper {
     width: var(--wrapper);
-    background-color:beige;
+    /* background-image: url(../image/uploads/images/yum_img_pc2.jpg); */
 }
 
 .container {
@@ -59,7 +59,6 @@ a {
     text-decoration: none;
 
 }
-
 
 ul {
     list-style: none;

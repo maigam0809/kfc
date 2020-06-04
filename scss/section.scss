@@ -1,0 +1,13 @@
+.section {
+    .flex {
+        display: flex;
+        margin: 0 -15px;
+        margin-top: var(--margin-fixed);
+        margin-bottom: var(--margin-fixed);
+        .item {
+            flex: 1;
+            margin: 0 15px;
+            
+        }
+    }
+}

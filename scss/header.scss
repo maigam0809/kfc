@@ -63,9 +63,11 @@
                 }
                 &:hover {
                     .nav__link {
+                       
                         color: var(--background-color);
                     }
                     background-color: var(--secondary-color);
+                    transition: 1.5s ease;
                 }
             }
         }
