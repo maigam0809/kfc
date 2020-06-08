@@ -3,12 +3,14 @@
     margin: 15px var(--margin-fixed);
   }
 
+  // content__top end
+
   &__product {
     .flex {
       display: flex;
       margin: 0 -10px;
       margin-top: var(--padding-20);
-     
+
       .item {
         flex: 1;
         margin: 0 10px;
@@ -16,15 +18,18 @@
         border-bottom-right-radius: 5px;
         border-bottom-left-radius: 5px;
         background-color: var(--five);
+
         &:hover {
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
 
         &__bottom {
           padding: 5px var(--padding-20) var(--padding-20);
+
           .content__text {
             padding: 10px 0;
           }
+
           .content__price {
             color: var(--primary-color);
             padding-bottom: 10px;
@@ -34,17 +39,20 @@
             .content__item {
               display: flex;
               color: dimgray;
+
               .fa {
                 font-size: 15px;
                 margin-top: 5px;
                 margin-right: 10px;
                 color: cornflowerblue;
               }
+
               p {
                 font-size: var(--font1);
               }
             }
           }
+
           .btn {
             text-align: center;
             padding: 10px 2px;
@@ -54,6 +62,7 @@
             a {
               color: #fff;
             }
+
             &:hover {
               transition: 1.5s ease;
               background-color: teal;
@@ -63,4 +72,50 @@
       }
     }
   }
+
+  // content__product end
+
+  &__introduction {
+    text-align: center;
+    margin-top: var(--margin-fixed);
+
+    .nav__item {
+      display: inline-block;
+
+      .nav__link {
+        margin-left: -4px;
+        padding: 10px 78px;
+        border-bottom: 1px solid #bab6b6;
+        color: #817b7b;
+
+        &:hover {
+          border-bottom: 2px solid var(--primary-color);
+          color: var(--primary-color);
+        }
+      }
+    }
+
+    // nav__item end
+    .content__information {
+      margin: var(--margin-fixed);
+
+      .flex {
+
+        display: flex;
+
+        .img__bg {
+          margin-left: 10px;
+        }
+
+        .information__top {
+          padding: 50px;
+          background-color: var(--five);
+          position: relative;
+
+        }
+      }
+    }
+
+  }
+
 }

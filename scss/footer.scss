@@ -11,33 +11,40 @@
             .item {
                 flex: 1;
                 margin: 0 20px;
+
                 .footer__item {
                     color: var(--secondary-color);
                     padding-left: 10px;
                 }
             }
         }
+
         .right {
             flex: 1;
+
             .right__list {
                 margin-left: 89px;
+
                 .right__item-icon {
                     display: flex;
                     flex-direction: row;
                     justify-content: flex-end;
                     margin-bottom: 10px;
+
                     .fa {
                         font-size: 40px;
                         color: var(--primary-color);
                         margin-left: 10px;
                     }
                 }
+
                 form {
                     input {
                         margin-top: 5px;
                         padding: 7px;
                         width: 190px;
                     }
+
                     button {
                         padding: 9px 11px;
                         background-color: var(--primary-color);
@@ -48,33 +55,43 @@
                 }
             }
         }
+
         // right end
     }
+
     &__bottom {
         border-top: 2px solid black;
+
         .flex {
             display: flex;
             margin-top: var(--padding-20);
+
             .distric__list {
                 flex: 4;
                 padding-left: 10px;
             }
         }
+
         .center {
             display: flex;
             flex-direction: column;
-           align-items: center;
-            .flex {
-                justify-content: center;
-                .flex__list {
-                    display: flex;
-                    .flex__item a {
-                        color: var(--secondary-color);
-                    }
+            align-items: center;
+            font-family: var(--font-family2);
+            font-size: 14px;
+
+            .flex__list {
+                display: flex;
+
+                .flex__item a {
+                    color: var(--secondary-color);
+                    margin-bottom: 15px;
                 }
-                .header__top-box{
-                    display: flex;
-                }
+            }
+            .head {
+                display: flex;
+               .header__top-box{
+               margin-top: 50px;
+               }
             }
         }
     }

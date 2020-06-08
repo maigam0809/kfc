@@ -62,24 +62,24 @@
 .header__nav .nav__list .nav__item:hover .nav__link {
   color: var(--background-color);
 }
-.header__nav .form {
+.header__nav form {
   flex: 1;
   display: var(--flex);
   align-items: center;
   justify-content: flex-end;
 }
-.header__nav .form .input__tim_kiem {
+.header__nav form .input__tim_kiem {
   padding: 5px 7px;
   margin-right: 7px;
 }
-.header__nav .form .btn {
+.header__nav form .btn {
   position: relative;
   background-color: var(--secondary-color);
   margin-right: 0;
   width: 50px;
   height: 30px;
 }
-.header__nav .form .btn .fa-search {
+.header__nav form .btn .fa-search {
   position: absolute;
   top: 25%;
   right: 35%;
@@ -201,6 +201,37 @@
   transition: 1.5s ease;
   background-color: teal;
 }
+.content__introduction {
+  text-align: center;
+  margin-top: var(--margin-fixed);
+}
+.content__introduction .nav__item {
+  display: inline-block;
+}
+.content__introduction .nav__item .nav__link {
+  margin-left: -4px;
+  padding: 10px 78px;
+  border-bottom: 1px solid #bab6b6;
+  color: #817b7b;
+}
+.content__introduction .nav__item .nav__link:hover {
+  border-bottom: 2px solid var(--primary-color);
+  color: var(--primary-color);
+}
+.content__introduction .content__information {
+  margin: var(--margin-fixed);
+}
+.content__introduction .content__information .flex {
+  display: flex;
+}
+.content__introduction .content__information .flex .img__bg {
+  margin-left: 10px;
+}
+.content__introduction .content__information .flex .information__top {
+  padding: 50px;
+  background-color: var(--five);
+  position: relative;
+}
 
 .section .flex {
   display: flex;
@@ -274,18 +305,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: var(--font-family2);
+  font-size: 14px;
 }
-.footer__bottom .center .flex {
-  justify-content: center;
-}
-.footer__bottom .center .flex .flex__list {
+.footer__bottom .center .flex__list {
   display: flex;
 }
-.footer__bottom .center .flex .flex__list .flex__item a {
+.footer__bottom .center .flex__list .flex__item a {
   color: var(--secondary-color);
+  margin-bottom: 15px;
 }
-.footer__bottom .center .flex .header__top-box {
+.footer__bottom .center .head {
   display: flex;
+}
+.footer__bottom .center .head .header__top-box {
+  margin-top: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */

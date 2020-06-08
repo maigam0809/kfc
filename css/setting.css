@@ -14,6 +14,8 @@
     --font-weight: bold;
     --padding-20: 20px;
     --font-family: 'Asap', sans-serif;
+    --font-family2: Arial,sans-serif;
+    
 
 
 }
@@ -30,18 +32,17 @@
 
 body {
     font-family: var(--primary-font);
-    font-weight: 300;
     color: var(--secondary-color);
-    background-color: var(--thirt-color);
     line-height: 1.4;
     font-family: var(--font-family);
-
+    font-weight: 300;
+    background-image: url(../image/uploads/images/bg.jpg);
 
 }
 
 .wrapper {
     width: var(--wrapper);
-    /* background-image: url(../image/uploads/images/yum_img_pc2.jpg); */
+   
 }
 
 .container {
