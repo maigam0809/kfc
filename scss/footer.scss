@@ -15,6 +15,7 @@
                 .footer__item {
                     color: var(--secondary-color);
                     padding-left: 10px;
+                   
                 }
             }
         }
@@ -69,6 +70,8 @@
             .distric__list {
                 flex: 4;
                 padding-left: 10px;
+                font-family: var(--font-family2);
+                font-weight: none;
             }
         }
 
@@ -85,13 +88,18 @@
                 .flex__item a {
                     color: var(--secondary-color);
                     margin-bottom: 15px;
+                    padding: 0 5px;
+                    &:hover {
+                        color:var(--primary-color);
+                        text-decoration: underline;
+                    }
                 }
             }
             .head {
                 display: flex;
-               .header__top-box{
-               margin-top: 50px;
-               }
+                .header__top-box {
+                    margin-top: 50px;
+                }
             }
         }
     }
