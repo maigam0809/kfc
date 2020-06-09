@@ -1,12 +1,9 @@
 .content {
-
   // content__top start
   &__top {
     margin: 15px var(--margin-fixed);
   }
   // content__top end
-
-
 
   // content__product start
   &__product {
@@ -78,8 +75,7 @@
   }
   // content__product end
 
-
-  // introduction start 
+  // introduction start
   &__introduction {
     text-align: center;
     margin-top: var(--margin-fixed);
@@ -143,14 +139,14 @@
       .content__information-bottom {
         background-image: url(../image/uploads/images/yum_img_pc2.jpg);
         background-repeat: no-repeat;
-        
+
         .flex {
           padding: 80px 0px 60px 286px;
           text-align: justify;
           .information__top-text {
             padding-left: var(--margin-fixed);
             font-size: 14px;
-            margin-left:175px;
+            margin-left: 175px;
             margin-right: 50px;
             margin-top: 60px;
             color: var(--background-color);
@@ -166,31 +162,31 @@
     margin: 0 var(--padding-20);
     text-align: center;
 
-    .nav{
-    
+    .nav {
       &__list {
-        .nav__item{
+        .nav__item {
           display: inline-block;
           .nav__link {
             margin-left: -4px;
             padding: 10px 78px;
             border-bottom: 1px solid #bab6b6;
             color: #817b7b;
-    
+
+            .active,
             &:hover {
-              border-bottom: 2px solid var(--primary-color);
+              border-bottom: 1.5px solid var(--primary-color);
               color: var(--secondary-color);
             }
           }
         }
       }
     }
-    .content__party-top{
+    .content__party-top {
       padding: 40px;
       .content__party-text {
-        color:var(--primary-color);
+        color: var(--primary-color);
       }
-      .content__party-desc{
+      .content__party-desc {
         font-family: var(--font-family2);
         font-size: 14px;
       }
@@ -206,13 +202,105 @@
       .btn {
         margin-top: var(--margin-fixed);
         background-color: var(--primary-color);
-        color:var(--background-color);
-        padding:10px var(--padding-20);
+        color: var(--background-color);
+        padding: 10px var(--padding-20);
         border: none;
       }
     }
   }
   // content__party end
 
+  .content__collapsibles {
+    margin-top: var(--margin-fixed);
+    border: 1px solid var(--five);
+    padding: var(--padding-20);
+    .article__collapsible {
+      margin-bottom: 10px;
+      .collapsible {
+        cursor: pointer;
+        padding: 15px;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        font-size: 15px;
+        border-radius: 10px;
+        border: var(--border);
+        &.active,
+        &:hover {
+          background-color: white;
+        }
+      }
+      .content {
+        margin-top: 20px;
+        display: none;
+        overflow: hidden;
+        background-color: white;
+        .flex {
+          display: flex;
+          margin: 0 -10px;
+          margin-top: 20px;
+          .item {
+            flex: 1;
+            margin: 0 10px;
+            border: var(--border);
+            border-radius: 5px;
+            &:hover {
+              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+            
+          }
+        }
+        .form {
+          display: flex;
+          margin: 0 -100px 0 -10px;
+          form {
+            flex: 1;
+            margin: 0 100px 0 10px;
+            .form__text {
+              
+              padding: var(--padding-20);
+              color: var(--primary-color);
+            }
+            .form__list {
+              .form__item {
+                .form__text-desc {
+                  text-align: left;
+                  padding: 10px 0;
+                }
+                input {
+                  padding: 15px;
+                  width: 100%;
+                  margin-bottom: 10px;
+                  border-radius: 5px;
+                  outline: none;
+                  border: none;
+                  border:var(--border);
+                  
+                }
+                button{
+                background-color: var(--primary-color);
+                border: none;
+                padding: var(--padding-20);
+                float: right;
+                color:var(--background-color)
+                }
+                .nav2__item{
+                  margin-right: 5px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
 
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
