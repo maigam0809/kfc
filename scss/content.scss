@@ -171,12 +171,14 @@
             padding: 10px 78px;
             border-bottom: 1px solid #bab6b6;
             color: #817b7b;
-
-            .active,
             &:hover {
               border-bottom: 1.5px solid var(--primary-color);
               color: var(--secondary-color);
             }
+            // &.active {
+            //   border-bottom: 1.5px solid var(--primary-color);
+            //   color: var(--secondary-color);
+            // }
           }
         }
       }

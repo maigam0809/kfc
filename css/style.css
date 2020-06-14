@@ -1,7 +1,6 @@
 .header {
   width: 100%;
   background-color: var(--background-color);
-  /* Slideshow container */
 }
 .header__top {
   display: var(--flex);
@@ -39,9 +38,13 @@
 .header__bottom-list .header__link:hover {
   text-decoration: underline;
 }
+
 .header__nav {
   display: var(--flex);
   background-color: var(--five);
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
 .header__nav .nav__list {
   flex: 3;
@@ -60,6 +63,12 @@
   transition: 1.5s ease;
 }
 .header__nav .nav__list .nav__item:hover .nav__link {
+  color: var(--background-color);
+}
+.header__nav .nav__list .active {
+  background-color: var(--secondary-color);
+}
+.header__nav .nav__list .active .nav__link {
   color: var(--background-color);
 }
 .header__nav form {
@@ -85,11 +94,13 @@
   right: 35%;
   color: #fff;
 }
-.header .slideshow-container {
+
+/* Slideshow container */
+.slideshow-container {
   position: relative;
   margin: auto;
 }
-.header .slideshow-container .prev {
+.slideshow-container .prev {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -103,10 +114,10 @@
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
-.header .slideshow-container .prev:hover {
+.slideshow-container .prev:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
-.header .slideshow-container .next {
+.slideshow-container .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -122,16 +133,17 @@
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-.header .slideshow-container .next:hover {
+.slideshow-container .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
-.header .slideshow-container .fade {
+.slideshow-container .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
 }
-.header .dot {
+
+.dot {
   cursor: pointer;
   height: 6px;
   width: 45px;
@@ -141,8 +153,11 @@
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-.header .active,
-.header .dot:hover {
+.dot:hover {
+  background-color: var(--primary-color);
+}
+
+.active {
   background-color: var(--primary-color);
 }
 
@@ -281,7 +296,7 @@
   border-bottom: 1px solid #bab6b6;
   color: #817b7b;
 }
-.content .content__party .nav__list .nav__item .nav__link .active, .content .content__party .nav__list .nav__item .nav__link:hover {
+.content .content__party .nav__list .nav__item .nav__link:hover {
   border-bottom: 1.5px solid var(--primary-color);
   color: var(--secondary-color);
 }
