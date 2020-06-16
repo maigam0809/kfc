@@ -456,7 +456,10 @@
 }
 .footer__top .flex .item .footer__item {
   color: var(--secondary-color);
-  padding-left: 10px;
+  padding: 3px 10px;
+}
+.footer__top .flex .item .footer__item:hover {
+  color: var(--primary-color);
 }
 .footer__top .right {
   flex: 1;

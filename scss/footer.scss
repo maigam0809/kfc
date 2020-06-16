@@ -14,8 +14,11 @@
 
                 .footer__item {
                     color: var(--secondary-color);
-                    padding-left: 10px;
-                   
+                    padding: 3px 10px;
+
+                   &:hover{
+                       color:var(--primary-color);
+                   }
                 }
             }
         }
