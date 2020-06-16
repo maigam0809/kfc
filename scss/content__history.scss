@@ -1,0 +1,75 @@
+.content {
+    .flex {
+        .content__history {
+            margin-top: var(--margin-fixed);
+            .content__history-top {
+                padding-left: 300px;
+                display: flex;
+                flex-direction: column;
+               align-items: flex-end;
+               padding-right:var(--margin-fixed);
+                .content__history-top-text {
+                    padding: var(--padding-20) 0;
+                }
+                .content__history-text {
+                   margin-top: var(--margin-fixed);
+                    color:var(--primary-color);
+                }
+            }
+            .content__history-bottom {
+                position: relative;
+                text-align: justify;
+                .history__1860 {
+                    padding-left: 582px;
+                    position: absolute;
+                    top: 8.5%;
+                    right: 36px;
+                    
+                }
+                .history__1930 {
+                    padding-left: 208px;
+                    position: absolute;
+                    top: 24%;
+                    right: 42%;
+                }
+                .history__1935 {
+                    padding-left: 208px;
+                    padding-right: 40px;
+                    padding-top:10px;
+                    position: absolute;
+                    top: 44%;
+                    left: 21%;
+                }
+                .history__1955 {
+                    padding-left: 208px;
+                    padding-right: 40px;
+                    padding-top: 10px;
+                    position: absolute;
+                    top: 56%;
+                    left: 14%;
+                }
+                .end {
+                    padding-left: 208px;
+                    padding-right: 40px;
+                    padding-top: 10px;
+                    position: absolute;
+                    top: 72%;
+                    left: 15%;
+                }
+                .history__1980 {
+                    padding-left: 82px;
+                    padding-right: 91px;
+                    padding-top: 10px;
+                    position: absolute;
+                    top: 83%;
+                    left: 12%;
+                    right: 35%;
+                }
+            }
+        }
+        .content__history-desc {
+            font-family: var( --font-family2);
+            font-weight: normal;
+        }
+    }
+}

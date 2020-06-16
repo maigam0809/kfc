@@ -5,7 +5,7 @@
   }
   // content__top end
 
-  // content__product start
+  // index.html start
   &__product {
     .flex {
       display: flex;
@@ -13,14 +13,16 @@
       margin: 0 -10px;
       margin-top: var(--padding-20);
       .item {
-        width:calc(25% - 20px);
+        display: flex;
+        flex-direction: column;
+        width: calc(25% - 20px);
         margin: 0 10px;
         border: var(--border);
         border-bottom-right-radius: 5px;
         border-bottom-left-radius: 5px;
         background-color: var(--five);
         margin-top: var(--padding-20);
-    
+
         &:hover {
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
@@ -29,36 +31,42 @@
           padding: 5px var(--padding-20) var(--padding-20);
           display: flex;
           flex-direction: column;
-          align-content: flex-end;
-          margin-bottom: 0;
-          
+          flex: 1;
 
-          .content__text {
-            padding: 10px 0;
-          }
-
-          .content__price {
-            color: var(--primary-color);
-            padding-bottom: 10px;
-          }
-
-          .content__list {
-            .content__item {
-              display: flex;
-              color: dimgray;
+          .text{
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            .content__text {
+              padding: 10px 0;
+            }
+  
+            .content__price {
+              color: var(--primary-color);
+              padding-bottom: 10px;
+            }
+  
+            .content__list {
+              text-transform: capitalize;
             
-
-              .fa {
-                font-size: 15px;
-                margin-top: 5px;
-                margin-right: 10px;
-                color: cornflowerblue;
-              }
-
-              p {
-                font-size: var(--font1);
+              
+              .content__item {
+                display: flex;
+                color: dimgray;
+  
+                .fa {
+                  font-size: 15px;
+                  margin-top: 5px;
+                  margin-right: 10px;
+                  color: cornflowerblue;
+                }
+  
+                p {
+                  font-size: var(--font1);
+                }
               }
             }
+
           }
 
           .btn {
@@ -187,12 +195,11 @@
               border-bottom: 1.5px solid var(--primary-color);
               color: var(--secondary-color);
             }
-            
           }
           .active {
-              border-bottom: 1.5px solid var(--primary-color);
-              color: var(--secondary-color);
-            }
+            border-bottom: 1.5px solid var(--primary-color);
+            color: var(--secondary-color);
+          }
         }
       }
     }
@@ -263,7 +270,6 @@
             &:hover {
               box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             }
-            
           }
         }
         .form {
@@ -273,7 +279,6 @@
             flex: 1;
             margin: 0 100px 0 10px;
             .form__text {
-              
               padding: var(--padding-20);
               color: var(--primary-color);
             }
@@ -290,17 +295,16 @@
                   border-radius: 5px;
                   outline: none;
                   border: none;
-                  border:var(--border);
-                  
+                  border: var(--border);
                 }
-                button{
-                background-color: var(--primary-color);
-                border: none;
-                padding: var(--padding-20);
-                float: right;
-                color:var(--background-color)
+                button {
+                  background-color: var(--primary-color);
+                  border: none;
+                  padding: var(--padding-20);
+                  float: right;
+                  color: var(--background-color);
                 }
-                .nav2__item{
+                .nav2__item {
                   margin-right: 5px;
                 }
               }
@@ -311,7 +315,6 @@
     }
   }
 }
-
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
