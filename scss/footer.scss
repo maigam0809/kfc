@@ -27,12 +27,12 @@
             flex: 1;
 
             .right__list {
-                margin-left: 89px;
+                margin-left: 70px;
+                margin-right: var(--padding-20);
 
                 .right__item-icon {
                     display: flex;
                     flex-direction: row;
-                    justify-content: flex-end;
                     margin-bottom: 10px;
 
                     .fa {
@@ -46,7 +46,7 @@
                     input {
                         margin-top: 5px;
                         padding: 7px;
-                        width: 190px;
+                        width: 170px;
                     }
 
                     button {
@@ -54,7 +54,7 @@
                         background-color: var(--primary-color);
                         border: none;
                         color: #fff;
-                        margin-right: 0;
+                        margin-right: 5px;
                     }
                 }
             }
@@ -72,9 +72,16 @@
 
             .distric__list {
                 flex: 4;
-                padding-left: 10px;
+                padding-left: 20px;
                 font-family: var(--font-family2);
-                font-weight: none;
+               font-size: 14px;
+                .distric__item {
+                    padding-bottom: 10px;
+                }
+                
+            }
+            .thuong__hieu {
+                margin-right: 40px;
             }
         }
 
@@ -87,6 +94,7 @@
 
             .flex__list {
                 display: flex;
+                padding:10px;
 
                 .flex__item a {
                     color: var(--secondary-color);

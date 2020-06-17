@@ -52,7 +52,7 @@
               
               .content__item {
                 display: flex;
-                color: dimgray;
+                color:var(--secondary-color);
   
                 .fa {
                   font-size: 15px;
@@ -62,7 +62,8 @@
                 }
   
                 p {
-                  font-size: var(--font1);
+                  font-family: var(--font-family2);
+                   font-size: 13px;
                 }
               }
             }
@@ -82,7 +83,7 @@
 
             &:hover {
               transition: 1.5s ease;
-              background-color: teal;
+              background-color:var(--secondary-color);
             }
           }
         }

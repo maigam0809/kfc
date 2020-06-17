@@ -54,6 +54,7 @@
 }
 .header__nav .nav__list .nav__item {
   padding: var(--padding-20);
+  border-right: 1px solid var(--five);
 }
 .header__nav .nav__list .nav__item .nav__link {
   color: var(--secondary-color);
@@ -84,7 +85,7 @@
 .header__nav form .btn {
   position: relative;
   background-color: var(--secondary-color);
-  margin-right: 0;
+  margin-right: 10px;
   width: 50px;
   height: 30px;
 }
@@ -205,7 +206,7 @@
 }
 .content__product .flex .item__bottom .text .content__list .content__item {
   display: flex;
-  color: dimgray;
+  color: var(--secondary-color);
 }
 .content__product .flex .item__bottom .text .content__list .content__item .fa {
   font-size: 15px;
@@ -214,7 +215,8 @@
   color: cornflowerblue;
 }
 .content__product .flex .item__bottom .text .content__list .content__item p {
-  font-size: var(--font1);
+  font-family: var(--font-family2);
+  font-size: 13px;
 }
 .content__product .flex .item__bottom .btn {
   text-align: center;
@@ -228,7 +230,7 @@
 }
 .content__product .flex .item__bottom .btn:hover {
   transition: 1.5s ease;
-  background-color: teal;
+  background-color: var(--secondary-color);
 }
 .content__introduction {
   text-align: center;
@@ -465,12 +467,12 @@
   flex: 1;
 }
 .footer__top .right .right__list {
-  margin-left: 89px;
+  margin-left: 70px;
+  margin-right: var(--padding-20);
 }
 .footer__top .right .right__list .right__item-icon {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
   margin-bottom: 10px;
 }
 .footer__top .right .right__list .right__item-icon .fa {
@@ -481,14 +483,14 @@
 .footer__top .right .right__list form input {
   margin-top: 5px;
   padding: 7px;
-  width: 190px;
+  width: 170px;
 }
 .footer__top .right .right__list form button {
   padding: 9px 11px;
   background-color: var(--primary-color);
   border: none;
   color: #fff;
-  margin-right: 0;
+  margin-right: 5px;
 }
 .footer__bottom {
   border-top: 2px solid black;
@@ -499,9 +501,15 @@
 }
 .footer__bottom .flex .distric__list {
   flex: 4;
-  padding-left: 10px;
+  padding-left: 20px;
   font-family: var(--font-family2);
-  font-weight: none;
+  font-size: 14px;
+}
+.footer__bottom .flex .distric__list .distric__item {
+  padding-bottom: 10px;
+}
+.footer__bottom .flex .thuong__hieu {
+  margin-right: 40px;
 }
 .footer__bottom .center {
   display: flex;
@@ -512,6 +520,7 @@
 }
 .footer__bottom .center .flex__list {
   display: flex;
+  padding: 10px;
 }
 .footer__bottom .center .flex__list .flex__item a {
   color: var(--secondary-color);
