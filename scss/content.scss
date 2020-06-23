@@ -26,6 +26,7 @@
         &:hover {
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
+       
 
         &__bottom {
           padding: 5px var(--padding-20) var(--padding-20);
@@ -87,6 +88,10 @@
             }
           }
         }
+      }
+      .w33 {
+        width: calc(33.3% - 20px);
+        
       }
     }
   }
@@ -249,6 +254,8 @@
         font-size: 15px;
         border-radius: 10px;
         border: var(--border);
+        font-size:14px;
+        font-family: var(--font-family2);
         &.active,
         &:hover {
           background-color: white;
@@ -271,6 +278,23 @@
             &:hover {
               box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             }
+            .collapsible__list {
+              
+              .collapsible__item{
+               margin-top: 10px;
+               margin-left: 30px;
+                text-align: left;
+                
+                .collapsible__text , .price{
+                  text-align: center;
+                  color:var(--primary-color);
+                }
+              }
+            }
+            // .btn {
+            //   background-color: var(--primary-color);
+            //   color:#fff;
+            // }
           }
         }
         .form {
