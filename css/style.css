@@ -623,4 +623,28 @@
   font-weight: normal;
 }
 
+.container .log-in .log-in-text {
+  color: var(--primary-color);
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+}
+.container .log-in .article-log-in {
+  margin: 0 300px;
+  border: 1px solid var(--primary-color);
+  border-radius: 50px;
+  border-shadow: 1px var(--primary-color);
+}
+
+.content .content__party .content__collapsibles .article__collapsible .flex {
+  display: flex;
+}
+.content .content__party .content__collapsibles .article__collapsible .flex .box {
+  flex: 1;
+  padding: 10px 0;
+}
+.content .content__party .content__collapsibles .article__collapsible .flex .box .box-icon .box_text {
+  color: var(--primary-color);
+}
+
 /*# sourceMappingURL=style.css.map */

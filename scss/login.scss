@@ -1,7 +1,17 @@
 .container{
   .log-in{
     .log-in-text{
-      color:yellowgreen;
+      color:var(--primary-color);
+      font-size: 30px;
+      text-align: center;
+      padding: 20px;
+    }
+    .article-log-in{
+      margin: 0 300px;
+      border: 1px solid var(--primary-color);
+      border-radius: 50px;
+      border-shadow: 1px var(--primary-color);
+      
     }
   }
 }

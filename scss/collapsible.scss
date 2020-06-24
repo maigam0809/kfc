@@ -1,0 +1,20 @@
+.content{
+  .content__party{
+    .content__collapsibles{
+      .article__collapsible{
+        .flex{
+          display:flex;
+          .box{
+            flex:1;
+            padding: 10px 0;
+            .box-icon{
+              .box_text{
+                color:var(--primary-color);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
