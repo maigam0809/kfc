@@ -686,6 +686,8 @@
   padding: 10px 0;
 }
 .container .log-in .article-log-in .form__log-in .tk {
+  color: var(--secondary-color);
+  text-align: center;
   padding: 10px 0;
   border-radius: 100px;
   outline: none;
