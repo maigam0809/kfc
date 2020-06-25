@@ -737,4 +737,95 @@
   font-size: 14px;
 }
 
+.container .registration .registration-text-desc {
+  color: var(--primary-color);
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 10px;
+}
+.container .registration .article-log-in {
+  border: 1px solid var(--primary-color);
+  border-radius: 50px;
+  box-shadow: 0px 0px 0px var(--primary-color), 0px 0px 10px var(--primary-color);
+  display: flex;
+  margin: 15px;
+}
+.container .registration .article-log-in .item1 {
+  flex: 1;
+  border-right: 1px solid darkgray;
+}
+.container .registration .article-log-in .item1 .registration-text {
+  font-family: var(--font-family1);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 45px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.container .registration .article-log-in .item1 .registration-icon {
+  font-family: var(--font-family2);
+  display: flex;
+}
+.container .registration .article-log-in .item1 .registration-icon .fas {
+  font-size: 48px;
+  padding-right: 15px;
+  color: var(--primary-color);
+}
+.container .registration .article-log-in .item1 .registration-icon span {
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 70px;
+}
+.container .registration .article-log-in .item {
+  flex: 1;
+  margin-left: 20px;
+  padding: 40px 20px;
+}
+.container .registration .article-log-in .item .registration-item-text {
+  text-align: center;
+  padding: 10px;
+  paddig-top: 0;
+  font-size: 25px;
+}
+.container .registration .article-log-in .item .form__registration {
+  display: flex;
+  flex-direction: column;
+}
+.container .registration .article-log-in .item .form__registration .ip_registration {
+  border: none;
+  border-bottom: 1px solid darkgray;
+  outline: none;
+  font-size: 16px;
+}
+.container .registration .article-log-in .item .form__registration .ip_registration, .container .registration .article-log-in .item .form__registration .btn {
+  flex: 1;
+  padding: 7px 10px;
+  padding-left: 0;
+  margin-bottom: 40px;
+}
+.container .registration .article-log-in .item .form__registration .btn {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  border: none;
+  border-radius: 100px;
+  padding: 11px 0;
+  outline: none;
+  font-weight: bold;
+  font-size: 17px;
+}
+.container .registration .article-log-in .item .form__registration label {
+  margin: 10px 0;
+}
+.container .registration .article-log-in .item .form__registration .gender {
+  padding: 10px 0;
+  font-family: var(--font-family2);
+}
+.container .registration .article-log-in .item .form__registration .gender input {
+  margin-right: 10px;
+}
+.container .registration .article-log-in .item .form__registration .gender span {
+  margin-right: 150px;
+}
+
 /*# sourceMappingURL=style.css.map */

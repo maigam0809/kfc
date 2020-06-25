@@ -1,0 +1,98 @@
+.container{
+  .registration{
+    .registration-text-desc{
+      color:var(--primary-color);
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
+      padding: 20px 10px;
+    }
+    .article-log-in {
+      border: 1px solid var(--primary-color);
+      border-radius: 50px;
+      box-shadow: 0px 0px 0px var(--primary-color), 0px 0px 10px var(--primary-color);
+      display:flex;
+      margin: 15px;
+      .item1{
+        flex: 1;
+        border-right: 1px solid darkgray;
+        .registration-text{
+          font-family: var(--font-family1);
+          text-transform: uppercase;
+          font-weight: bold;
+          font-size: 45px;
+          padding: 10px;
+          margin-bottom: 20px;
+        }
+        .registration-icon{
+          font-family: var(--font-family2);
+          display: flex;
+
+          .fas{
+            font-size: 48px;
+            padding-right: 15px;
+            color: var(--primary-color);
+          }
+          span{
+            font-size: 20px;
+            padding-left: 10px;
+            padding-right: 70px;
+       
+          }
+        }
+      }
+      .item{
+        flex: 1;
+        margin-left: 20px;
+        padding: 40px 20px;
+        .registration-item-text{
+          text-align: center;
+          padding: 10px;
+          paddig-top: 0;
+          font-size: 25px;
+        }
+        .form__registration{
+          display: flex;
+          flex-direction: column;
+          .ip_registration{
+            border: none;
+            border-bottom: 1px solid darkgray;
+            outline: none;
+            font-size: 16px;
+          }
+          .ip_registration, .btn {
+            flex: 1;
+            padding: 7px 10px;
+            padding-left: 0;
+            margin-bottom: 40px;
+          }
+          .btn{
+            background-color: var(--primary-color);
+            color:var(--background-color);
+            border:none;
+            border-radius: 100px;
+            padding: 11px 0;
+            outline: none;
+            font-weight: bold;
+            font-size: 17px;
+          }
+          label{
+            margin: 10px 0;
+          }
+          .gender{
+            padding: 10px 0;
+            font-family: var(--font-family2);
+            input{
+              margin-right: 10px;
+            }
+            span{
+              margin-right: 150px; 
+            }
+          }
+        }
+      
+      }
+
+    }
+  }
+}
