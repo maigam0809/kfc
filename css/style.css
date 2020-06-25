@@ -38,6 +38,9 @@
 .header__bottom-list .header__link:hover {
   color: var(--primary-color);
 }
+.header__bottom-list .active {
+  color: var(--primary-color);
+}
 
 .header__nav {
   display: var(--flex);
@@ -88,12 +91,14 @@
   margin-right: 10px;
   width: 50px;
   height: 30px;
+  border: none;
 }
 .header__nav form .btn .fa-search {
   position: absolute;
   top: 25%;
   right: 35%;
   color: #fff;
+  font-size: 16px;
 }
 
 /* Slideshow container */
@@ -630,10 +635,66 @@
   padding: 20px;
 }
 .container .log-in .article-log-in {
-  margin: 0 300px;
+  margin-left: 200px;
+  margin-right: 150px;
   border: 1px solid var(--primary-color);
   border-radius: 50px;
-  border-shadow: 1px var(--primary-color);
+  box-shadow: 0px 0px 0px var(--primary-color), 0px 0px 10px var(--primary-color);
+}
+.container .log-in .article-log-in .h3-2 {
+  text-align: left;
+  color: var(--secondary-color);
+  margin-left: 80px;
+  padding: 20px 0;
+  font-size: 28px;
+}
+.container .log-in .article-log-in .form__log-in {
+  margin: 0px 70px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.container .log-in .article-log-in .form__log-in .ip_login, .container .log-in .article-log-in .form__log-in .btn {
+  flex: 1;
+  padding: 7px 10px;
+  margin-bottom: 40px;
+}
+.container .log-in .article-log-in .form__log-in .ip_login {
+  border: none;
+  border-bottom: var(--border);
+  outline: none;
+  font-size: 16px;
+}
+.container .log-in .article-log-in .form__log-in .btn {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  border: none;
+  border-radius: 100px;
+  padding: 11px 0;
+  outline: none;
+  font-weight: bold;
+  font-size: 17px;
+}
+.container .log-in .article-log-in .form__log-in .forget__passworld {
+  color: #279DF3;
+}
+.container .log-in .article-log-in .form__log-in .login-end {
+  margin-bottom: 10px;
+}
+.container .log-in .article-log-in .form__log-in .not__login {
+  color: #948F8F;
+  font-family: var(--font-family2);
+  padding: 10px 0;
+}
+.container .log-in .article-log-in .form__log-in .tk {
+  padding: 10px 0;
+  border-radius: 100px;
+  outline: none;
+  border: none;
+  border: 1.2px solid var(--secondary-color);
+  background-color: var(--background-color);
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 40px;
 }
 
 .content .content__party .content__collapsibles .article__collapsible .flex {

@@ -41,6 +41,9 @@
                     color:var(--primary-color);
                 }
             }
+            .active{
+                color:var(--primary-color);
+            }
         }
     }
     // logo+ đăng ký end
@@ -103,11 +106,13 @@
             margin-right: 10px;
             width: 50px;
             height: 30px;
+            border:none;
             .fa-search {
                 position: absolute;
                 top: 25%;
                 right: 35%;
                 color: #fff;
+                font-size: 16px;
             }
         }
     }
