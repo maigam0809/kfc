@@ -7,10 +7,41 @@
           .box{
             flex:1;
             padding: 10px 0;
+            margin-right: 70px;
+            margin-bottom: 5px;
+            
             .box-icon{
+             display: flex;
+             
               .box_text{
+                flex:1;
                 color:var(--primary-color);
               }
+              span{
+                flex:1;
+              }
+              .box-text-desc{
+                padding: 5px 39px;
+                
+              }
+              .fas{
+                color:var(--primary-color);
+                padding: 0 10px;
+                font-size: 20px;
+              }
+              margin: 10px 0;
+              p{
+                font-family: var(--font-family1);
+              }
+            }
+            .box-item{
+              padding:  5px 10px;
+              border-bottom: var(--border);
+              
+            }
+            .text-2{
+              font-family: var(--font-family2);
+              font-size: 14px;
             }
           }
         }

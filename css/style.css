@@ -642,9 +642,38 @@
 .content .content__party .content__collapsibles .article__collapsible .flex .box {
   flex: 1;
   padding: 10px 0;
+  margin-right: 70px;
+  margin-bottom: 5px;
+}
+.content .content__party .content__collapsibles .article__collapsible .flex .box .box-icon {
+  display: flex;
+  margin: 10px 0;
 }
 .content .content__party .content__collapsibles .article__collapsible .flex .box .box-icon .box_text {
+  flex: 1;
   color: var(--primary-color);
+}
+.content .content__party .content__collapsibles .article__collapsible .flex .box .box-icon span {
+  flex: 1;
+}
+.content .content__party .content__collapsibles .article__collapsible .flex .box .box-icon .box-text-desc {
+  padding: 5px 39px;
+}
+.content .content__party .content__collapsibles .article__collapsible .flex .box .box-icon .fas {
+  color: var(--primary-color);
+  padding: 0 10px;
+  font-size: 20px;
+}
+.content .content__party .content__collapsibles .article__collapsible .flex .box .box-icon p {
+  font-family: var(--font-family1);
+}
+.content .content__party .content__collapsibles .article__collapsible .flex .box .box-item {
+  padding: 5px 10px;
+  border-bottom: var(--border);
+}
+.content .content__party .content__collapsibles .article__collapsible .flex .box .text-2 {
+  font-family: var(--font-family2);
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=style.css.map */
