@@ -557,6 +557,10 @@
   margin-top: 50px;
 }
 
+.content .flex .content__history-desc {
+  font-family: var(--font-family2);
+  font-weight: normal;
+}
 .content .flex .content__history {
   margin-top: var(--margin-fixed);
 }
@@ -625,10 +629,6 @@
   top: 83%;
   left: 12%;
   right: 35%;
-}
-.content .flex .content__history-desc {
-  font-family: var(--font-family2);
-  font-weight: normal;
 }
 
 .container .log-in .log-in-text {

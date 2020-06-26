@@ -1,5 +1,9 @@
 .content {
     .flex {
+        .content__history-desc {
+            font-family: var( --font-family2);
+            font-weight: normal;
+        }
         .content__history {
             margin-top: var(--margin-fixed);
             .content__history-top {
@@ -33,7 +37,6 @@
                     right: 42%;
                     .text-2{
                         font-family: 'MuseoModerno', cursive;
-
                     }
                 }
                 .history__1935 {
@@ -71,9 +74,6 @@
                 }
             }
         }
-        .content__history-desc {
-            font-family: var( --font-family2);
-            font-weight: normal;
-        }
+       
     }
 }
