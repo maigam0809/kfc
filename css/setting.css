@@ -1,3 +1,7 @@
+/* @font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+  } */
 :root {
     --primary-color: #cc0000;
     --secondary-color: #000000;
@@ -16,8 +20,6 @@
     --font-family: 'Asap', sans-serif;
     --font-family2: Arial, Helvetica, sans-serif;
     
-
-
 }
 
 *,
