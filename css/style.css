@@ -597,6 +597,7 @@
 .content .flex .content__history .content__history-bottom .history__1930 .text-2 {
   font-family: "MuseoModerno", cursive;
   font-weight: bold;
+  line-height: 24px;
 }
 .content .flex .content__history .content__history-bottom .history__1935 {
   padding-left: 208px;
